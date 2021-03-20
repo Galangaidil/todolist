@@ -1,2 +1,2 @@
 # todolist
-membuat aplikasi web untuk pengingat
+membuat aplikasi web pengingat 
