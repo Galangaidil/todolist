@@ -109,7 +109,7 @@ if (isset($_POST['register'])) {
           </div>
         </form>
 
-        <form action="" method="POST" class="sign-up-form">
+        <form action="" name="RegForm" method="POST" class="sign-up-form" onsubmit="return registrasi()">
           <h2 class="title">Sign up</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
@@ -168,6 +168,7 @@ if (isset($_POST['register'])) {
   </div>
 
   <script src="js/app.js"></script>
+  <script src="js/validasi.js"></script>
 </body>
 
 </html>
