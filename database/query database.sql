@@ -12,7 +12,8 @@ CREATE TABLE `users` (
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username` (`username`);
+  ADD UNIQUE KEY `username` (`username`)
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for table `users`
